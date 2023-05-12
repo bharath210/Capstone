@@ -1,0 +1,137 @@
+2023-05-02 01:39:06.039 [main] INFO  c.h.c.e.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.6 on LAPTOP-8UE8DKAG with PID 9280 (D:\Bharath\Capstone_repo\HDFC_Capstone\employee-management-system\bin\main started by 91939 in D:\Bharath\Capstone_repo\HDFC_Capstone\employee-management-system)
+2023-05-02 01:39:06.042 [main] INFO  c.h.c.e.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-02 01:39:06.642 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-02 01:39:06.696 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 42 ms. Found 1 JPA repository interfaces.
+2023-05-02 01:39:07.153 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9500 (https)
+2023-05-02 01:39:07.163 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-02 01:39:07.164 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-02 01:39:07.282 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-02 01:39:07.283 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1202 ms
+2023-05-02 01:39:07.446 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-02 01:39:07.506 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-02 01:39:07.686 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-02 01:39:07.784 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-02 01:39:07.917 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-02 01:39:07.942 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2023-05-02 01:39:08.420 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-02 01:39:08.427 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 01:39:08.622 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-02 01:39:09.125 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-9500], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/D:/Bharath/Capstone_repo/HDFC_Capstone/employee-management-system/bin/main/keystore.p12] using alias [keystore] and with trust store [null]
+2023-05-02 01:39:09.142 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9500 (https) with context path ''
+2023-05-02 01:39:09.150 [main] INFO  c.h.c.e.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 3.559 seconds (JVM running for 4.448)
+2023-05-02 01:39:30.981 [https-jsse-nio-9500-exec-7] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-02 01:39:30.981 [https-jsse-nio-9500-exec-7] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-02 01:39:30.982 [https-jsse-nio-9500-exec-7] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 1 ms
+2023-05-02 01:39:31.017 [https-jsse-nio-9500-exec-7] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 6 called
+2023-05-02 01:39:35.241 [https-jsse-nio-9500-exec-2] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 4 called
+2023-05-02 01:39:37.630 [https-jsse-nio-9500-exec-8] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 1 called
+2023-05-02 01:39:38.886 [https-jsse-nio-9500-exec-9] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 154 called
+2023-05-02 01:39:38.902 [https-jsse-nio-9500-exec-9] INFO  c.h.c.e.e.GlobalExceptionHandler - Invalid EmployeeId : 154
+2023-05-02 01:39:42.048 [https-jsse-nio-9500-exec-4] INFO  c.h.c.e.e.GlobalExceptionHandler - Please provide Employee Id in numbers only
+2023-05-02 01:40:28.686 [https-jsse-nio-9500-exec-1] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 9 called
+2023-05-02 01:40:32.634 [https-jsse-nio-9500-exec-3] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 3 called
+2023-05-02 01:43:14.258 [https-jsse-nio-9500-exec-5] INFO  c.h.c.e.e.GlobalExceptionHandler - Please provide Employee Id in numbers only
+2023-05-02 01:43:20.922 [https-jsse-nio-9500-exec-9] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 43 called
+2023-05-02 01:43:20.938 [https-jsse-nio-9500-exec-9] INFO  c.h.c.e.e.GlobalExceptionHandler - Invalid EmployeeId : 43
+2023-05-02 01:43:23.565 [https-jsse-nio-9500-exec-4] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 3 called
+2023-05-02 01:43:28.474 [https-jsse-nio-9500-exec-3] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 4 called
+2023-05-02 01:43:53.782 [https-jsse-nio-9500-exec-1] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 3 called
+2023-05-02 01:43:57.652 [https-jsse-nio-9500-exec-3] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 3 called
+2023-05-02 01:44:00.145 [https-jsse-nio-9500-exec-5] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 5 called
+2023-05-02 01:45:13.925 [https-jsse-nio-9500-exec-1] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 64 called
+2023-05-02 01:45:13.928 [https-jsse-nio-9500-exec-1] INFO  c.h.c.e.e.GlobalExceptionHandler - Invalid EmployeeId : 64
+2023-05-02 01:45:27.936 [https-jsse-nio-9500-exec-2] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 5 called
+2023-05-02 01:45:40.069 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-05-02 01:45:40.078 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-05-02 01:45:40.079 [RMI TCP Connection(10)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-02 01:45:40.086 [RMI TCP Connection(10)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 01:45:40.097 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-02 01:45:40.103 [RMI TCP Connection(10)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-02 10:07:26.344 [main] INFO  c.h.c.e.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.6 on LAPTOP-8UE8DKAG with PID 27520 (D:\Bharath\Capstone_repo\HDFC_Capstone\employee-management-system\bin\main started by 91939 in D:\Bharath\Capstone_repo\HDFC_Capstone\employee-management-system)
+2023-05-02 10:07:26.349 [main] INFO  c.h.c.e.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-02 10:07:27.136 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-02 10:07:27.203 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 57 ms. Found 1 JPA repository interfaces.
+2023-05-02 10:07:27.736 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9500 (https)
+2023-05-02 10:07:27.749 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-02 10:07:27.750 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-02 10:07:27.886 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-02 10:07:27.886 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1483 ms
+2023-05-02 10:07:28.070 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-02 10:07:28.145 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-02 10:07:28.347 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-02 10:07:28.462 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-02 10:07:28.621 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-02 10:07:28.649 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2023-05-02 10:07:29.176 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-02 10:07:29.183 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 10:07:29.412 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-02 10:07:30.011 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-9500], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/D:/Bharath/Capstone_repo/HDFC_Capstone/employee-management-system/bin/main/keystore.p12] using alias [keystore] and with trust store [null]
+2023-05-02 10:07:30.029 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9500 (https) with context path ''
+2023-05-02 10:07:30.037 [main] INFO  c.h.c.e.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 4.079 seconds (JVM running for 5.31)
+2023-05-02 10:11:38.515 [https-jsse-nio-9500-exec-6] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-02 10:11:38.515 [https-jsse-nio-9500-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-02 10:11:38.515 [https-jsse-nio-9500-exec-6] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 0 ms
+2023-05-02 10:11:38.545 [https-jsse-nio-9500-exec-6] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 6 called
+2023-05-02 10:14:06.336 [https-jsse-nio-9500-exec-4] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 9 called
+2023-05-02 10:14:20.705 [https-jsse-nio-9500-exec-5] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 5 called
+2023-05-02 10:14:23.080 [https-jsse-nio-9500-exec-6] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 4 called
+2023-05-02 10:14:24.985 [https-jsse-nio-9500-exec-7] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 6 called
+2023-05-02 10:14:28.372 [https-jsse-nio-9500-exec-9] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 65 called
+2023-05-02 10:14:28.374 [https-jsse-nio-9500-exec-9] INFO  c.h.c.e.e.GlobalExceptionHandler - Invalid EmployeeId : 65
+2023-05-02 10:14:32.312 [https-jsse-nio-9500-exec-4] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 67 called
+2023-05-02 10:14:32.315 [https-jsse-nio-9500-exec-4] INFO  c.h.c.e.e.GlobalExceptionHandler - Invalid EmployeeId : 67
+2023-05-02 10:14:35.257 [https-jsse-nio-9500-exec-8] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 76 called
+2023-05-02 10:14:35.267 [https-jsse-nio-9500-exec-8] INFO  c.h.c.e.e.GlobalExceptionHandler - Invalid EmployeeId : 76
+2023-05-02 10:14:37.625 [https-jsse-nio-9500-exec-6] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 8 called
+2023-05-02 10:14:39.456 [https-jsse-nio-9500-exec-7] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 6 called
+2023-05-02 10:14:43.428 [https-jsse-nio-9500-exec-9] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 454 called
+2023-05-02 10:14:43.428 [https-jsse-nio-9500-exec-9] INFO  c.h.c.e.e.GlobalExceptionHandler - Invalid EmployeeId : 454
+2023-05-02 11:07:00.540 [https-jsse-nio-9500-exec-4] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 2 called
+2023-05-02 11:08:58.031 [RMI TCP Connection(65)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-05-02 11:08:58.131 [RMI TCP Connection(65)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-05-02 11:08:58.140 [RMI TCP Connection(65)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-02 11:08:58.210 [RMI TCP Connection(65)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 11:08:58.231 [RMI TCP Connection(65)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-02 11:08:58.243 [RMI TCP Connection(65)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
+2023-05-02 11:09:00.073 [main] INFO  c.h.c.e.EmployeeManagementSystemApplication - Starting EmployeeManagementSystemApplication using Java 17.0.6 on LAPTOP-8UE8DKAG with PID 7788 (D:\Bharath\Capstone_repo\HDFC_Capstone\employee-management-system\bin\main started by 91939 in D:\Bharath\Capstone_repo\HDFC_Capstone\employee-management-system)
+2023-05-02 11:09:00.075 [main] INFO  c.h.c.e.EmployeeManagementSystemApplication - No active profile set, falling back to 1 default profile: "default"
+2023-05-02 11:09:00.539 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Bootstrapping Spring Data JPA repositories in DEFAULT mode.
+2023-05-02 11:09:00.595 [main] INFO  o.s.d.r.c.RepositoryConfigurationDelegate - Finished Spring Data repository scanning in 47 ms. Found 1 JPA repository interfaces.
+2023-05-02 11:09:01.063 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat initialized with port(s): 9500 (https)
+2023-05-02 11:09:01.074 [main] INFO  o.a.catalina.core.StandardService - Starting service [Tomcat]
+2023-05-02 11:09:01.074 [main] INFO  o.a.catalina.core.StandardEngine - Starting Servlet engine: [Apache Tomcat/9.0.74]
+2023-05-02 11:09:01.178 [main] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring embedded WebApplicationContext
+2023-05-02 11:09:01.178 [main] INFO  o.s.b.w.s.c.ServletWebServerApplicationContext - Root WebApplicationContext: initialization completed in 1061 ms
+2023-05-02 11:09:01.328 [main] INFO  o.h.jpa.internal.util.LogHelper - HHH000204: Processing PersistenceUnitInfo [name: default]
+2023-05-02 11:09:01.395 [main] INFO  org.hibernate.Version - HHH000412: Hibernate ORM core version 5.6.15.Final
+2023-05-02 11:09:01.587 [main] INFO  o.h.annotations.common.Version - HCANN000001: Hibernate Commons Annotations {5.1.2.Final}
+2023-05-02 11:09:01.696 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Starting...
+2023-05-02 11:09:01.861 [main] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Start completed.
+2023-05-02 11:09:01.890 [main] INFO  org.hibernate.dialect.Dialect - HHH000400: Using dialect: org.hibernate.dialect.MySQL55Dialect
+2023-05-02 11:09:02.435 [main] INFO  o.h.e.t.j.p.i.JtaPlatformInitiator - HHH000490: Using JtaPlatform implementation: [org.hibernate.engine.transaction.jta.platform.internal.NoJtaPlatform]
+2023-05-02 11:09:02.444 [main] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Initialized JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 11:09:02.675 [main] WARN  o.s.b.a.o.j.JpaBaseConfiguration$JpaWebConfiguration - spring.jpa.open-in-view is enabled by default. Therefore, database queries may be performed during view rendering. Explicitly configure spring.jpa.open-in-view to disable this warning
+2023-05-02 11:09:03.166 [main] INFO  o.a.t.u.net.NioEndpoint.certificate - Connector [https-jsse-nio-9500], TLS virtual host [_default_], certificate type [UNDEFINED] configured from [file:/D:/Bharath/Capstone_repo/HDFC_Capstone/employee-management-system/bin/main/keystore.p12] using alias [keystore] and with trust store [null]
+2023-05-02 11:09:03.182 [main] INFO  o.s.b.w.e.tomcat.TomcatWebServer - Tomcat started on port(s): 9500 (https) with context path ''
+2023-05-02 11:09:03.190 [main] INFO  c.h.c.e.EmployeeManagementSystemApplication - Started EmployeeManagementSystemApplication in 3.388 seconds (JVM running for 4.144)
+2023-05-02 11:39:54.504 [https-jsse-nio-9500-exec-7] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Initializing Spring DispatcherServlet 'dispatcherServlet'
+2023-05-02 11:39:54.507 [https-jsse-nio-9500-exec-7] INFO  o.s.web.servlet.DispatcherServlet - Initializing Servlet 'dispatcherServlet'
+2023-05-02 11:39:54.529 [https-jsse-nio-9500-exec-7] INFO  o.s.web.servlet.DispatcherServlet - Completed initialization in 22 ms
+2023-05-02 11:39:54.631 [https-jsse-nio-9500-exec-7] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 1 called
+2023-05-02 11:40:00.601 [https-jsse-nio-9500-exec-6] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 2 called
+2023-05-02 11:40:06.163 [https-jsse-nio-9500-exec-8] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 3 called
+2023-05-02 11:40:12.869 [https-jsse-nio-9500-exec-9] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 9 called
+2023-05-02 11:40:16.441 [https-jsse-nio-9500-exec-10] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 10 called
+2023-05-02 11:40:16.446 [https-jsse-nio-9500-exec-10] INFO  c.h.c.e.e.GlobalExceptionHandler - Invalid EmployeeId : 10
+2023-05-02 11:40:36.670 [https-jsse-nio-9500-exec-1] INFO  c.h.c.e.e.GlobalExceptionHandler - Please provide Employee Id in numbers only
+2023-05-02 11:40:40.030 [https-jsse-nio-9500-exec-8] INFO  c.h.c.e.e.GlobalExceptionHandler - Please provide Employee Id in numbers only
+2023-05-02 11:40:52.820 [https-jsse-nio-9500-exec-3] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 1 called
+2023-05-02 11:40:58.493 [https-jsse-nio-9500-exec-4] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 2 called
+2023-05-02 11:41:02.019 [https-jsse-nio-9500-exec-7] INFO  c.h.c.e.c.EmployeeController - getByEmployeeId : 23 called
+2023-05-02 11:41:02.022 [https-jsse-nio-9500-exec-7] INFO  c.h.c.e.e.GlobalExceptionHandler - Invalid EmployeeId : 23
+2023-05-02 12:10:29.806 [RMI TCP Connection(66)-127.0.0.1] INFO  o.s.b.a.SpringApplicationAdminMXBeanRegistrar$SpringApplicationAdmin - Application shutdown requested.
+2023-05-02 12:10:29.893 [RMI TCP Connection(66)-127.0.0.1] INFO  o.a.catalina.core.StandardService - Stopping service [Tomcat]
+2023-05-02 12:10:29.901 [RMI TCP Connection(66)-127.0.0.1] INFO  o.a.c.c.C.[Tomcat].[localhost].[/] - Destroying Spring FrameworkServlet 'dispatcherServlet'
+2023-05-02 12:10:29.931 [RMI TCP Connection(66)-127.0.0.1] INFO  o.s.o.j.LocalContainerEntityManagerFactoryBean - Closing JPA EntityManagerFactory for persistence unit 'default'
+2023-05-02 12:10:29.945 [RMI TCP Connection(66)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown initiated...
+2023-05-02 12:10:29.951 [RMI TCP Connection(66)-127.0.0.1] INFO  com.zaxxer.hikari.HikariDataSource - HikariPool-1 - Shutdown completed.
